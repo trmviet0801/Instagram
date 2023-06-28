@@ -1,0 +1,11 @@
+.bar {
+    width: 20vw;
+    height: 100vh;
+    border-right: 0.1rem solid #343a40;
+    padding: 1rem;
+}
+
+.ins {
+    font-family: 'Fasthand', cursive;
+    font-family: 'Playfair Display', serif;
+}
