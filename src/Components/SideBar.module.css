@@ -4,8 +4,10 @@
     border-right: 0.1rem solid #ced4da;
     display: flex;
     flex-direction: column;
-    gap: 5vh;
-
+    gap: 1vh;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
 }
 
 .ins {
@@ -25,3 +27,44 @@ a {
     text-decoration: none;
     color: black;
 }
+
+.setting {
+    position: absolute;
+    left: 2vw;
+    bottom: 2vh;
+}
+ .settings {
+    display: flex;
+    gap: 1vw;
+ }
+
+ .logout {
+    width: 100%;
+    border: 1px solid #495057;
+    position: absolute;
+    bottom: 3vh;
+    width: 10vh;
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+ }
+
+ .hidden {
+    display: none;
+ }
+
+ .setting button {
+    border: none;
+ }
+
+ .logout a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }

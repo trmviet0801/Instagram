@@ -1,0 +1,20 @@
+@keyframes smooth-appear {
+    to{
+      bottom: 80vh;
+      opacity:1;
+    }
+  }
+  .searchForm {
+    border: 1px solid #495057;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 20px;
+    position: fixed;
+    bottom: -100%;
+    opacity:0;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+    animation: smooth-appear 1s ease forwards;
+  }

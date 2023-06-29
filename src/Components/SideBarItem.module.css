@@ -10,13 +10,28 @@
     display: flex;
     gap: 1vw;
     color: black;
-    text-decoration: none;
-    text-align: center;
-    justify-content: center;
+    text-decoration: none;  
     align-items: center;
 }
 
 .navigate:hover {
     background-color: #e9ecef;
     border-radius: 1rem;
+}
+
+.navigate:hover .image {
+    transform: scale(1.1);
+}
+
+NavLink a{
+    height: 100%;
+    width: 100%;
+}
+
+.active span {
+    font-weight: 600;
+}
+
+.active .image {
+    transform: scale(1.2);
 }

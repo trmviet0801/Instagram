@@ -4,4 +4,13 @@ main {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    display: flex;
+}
+
+.test{
+    height: 200vh;
+}
+
+.central {
+    margin-left: 15vw;
 }

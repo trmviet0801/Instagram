@@ -1,0 +1,99 @@
+.main {
+    width: 450px;
+    height: 800px;
+    border-top: 0.1rem solid #ced4da;
+    border-bottom: 0.1rem solid #ced4da;
+    margin: 5vh 20vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    position: relative;
+}
+
+.time {
+    font-weight: 500;
+    color: #adb5bd;
+}
+
+
+
+.article img {
+    height: 550px;
+    width: 440px;
+}
+
+.dot {
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.dts:hover {
+    color: #6c757d;
+}
+
+.reacts {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.rt1:hover {
+    color:#6c757d;
+}
+
+.rt2:hover {
+    color:#6c757d;
+}
+
+.rt3:hover {
+    color:#6c757d;
+}
+
+.save {
+    margin-right: 0px;
+    margin-left: auto;
+}
+
+.save svg:hover {
+    color:#6c757d;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.cmt {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.cmt input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #495057;
+    height: 30px;
+}
+
+.cmt input:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #495057;
+    font-size: 20;
+    outline: none;
+}
+
+.reacts svg:hover {
+    color: #6c757d;
+}
