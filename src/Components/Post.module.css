@@ -83,6 +83,7 @@
     border-right: none;
     border-bottom: 1px solid #495057;
     height: 30px;
+    font-size: 15px;
 }
 
 .cmt input:focus {
@@ -90,7 +91,6 @@
     border-left: none;
     border-right: none;
     border-bottom: 1px solid #495057;
-    font-size: 20;
     outline: none;
 }
 
